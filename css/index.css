@@ -1,0 +1,136 @@
+.logo{width: 210px;padding-top: 21px;margin-right: 233px}
+
+h1{letter-spacing:5px}
+
+/*头部导航*/
+header{background-color: #fff}
+header li{float: left;margin-right: 53px;}
+header li a{display: block;padding:31px 14px 25px 14px;font-size: 18px;font-weight: bold;text-decoration: none}
+header li a:hover{border-bottom:5px solid #ff552d;color:#ff552d}
+header li a.active{border-bottom:5px solid #ff552d;color:#ff552d}
+header span{color: #ff552d;font-size: 18px;font-weight: bold;padding-top: 31px}
+header span.login{margin-right:25px;margin-left: 15px}
+
+/*banner*/
+/*.banner{background-image: url(../img/banner.jpg);background-repeat:no-repeat;background-size: cover;background-position: center;padding:410px 0}*/
+.banner{padding-bottom:1050px;position:relative;}
+.banner video{width: 1905px;height: auto;position: absolute;left: 50%;top: ;margin-left: -952px}
+
+/*星空下的梦想 文字*/
+.text{padding-bottom: 71px}
+.text h1{font-size:52px;color: #eb4f1e;font-weight:500;margin: 65px 0 40px 0;visibility: hidden;min-height: 1px;overflow: hidden;}
+.text p{color: #000000;font-size: 24px;text-align: center;padding:0 90px;line-height: 40px;visibility: hidden;min-height: 1px;overflow: hidden}
+
+/*我们的成就*/
+.achievement{background-image: url(../img/achievement.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;background-attachment:fixed;padding-bottom: 81px}
+.achievement h1{font-size:52px;color: #fff;font-weight:500;margin: 65px 0 75px 0;visibility: hidden;min-height: 1px;overflow: hidden}
+.achievement .filter{visibility: hidden;}
+.title,.number,.endtext{text-align: center;display: block;color: #fff;}
+.title,.endtext{font-size: 30px;}
+.title{padding-top: 46px}
+.number{font-size: 52px;font-weight: 500;line-height:70px}
+.endtext{padding-bottom: 40px}
+.achievement .filter{background-color:rgba(0,0,0,0.7)}
+
+/*名师*/
+.team h1{font-size:52px;color: #000;font-weight:500;padding: 65px 0 75px 0;visibility: hidden;}
+.team h1 span{color:#eb4f1e}
+.team h1 font{padding-left: 25px}
+.team ul{width: 9999999px;margin: 0;overflow: hidden}
+.team ul li{float: left;position:relative;width: 320px;visibility: hidden; }
+.team ul li img{display: block}
+.teamName{position: absolute;bottom: 0;left: 0;padding:0 27px}
+.team ul li h3{font-size: 24px;color: #ff7500;font-weight:500;padding-bottom:10px;letter-spacing: 2px}
+.team ul li p{font-size: 18px;color: #fff;text-align: center;letter-spacing:1px}
+
+/*名师轮播图*/
+.teacher{background-color: #eb4f1e;padding-bottom: 98px}
+.teacher .teacherImg{text-align: center;padding: 51px 0 53px 0;visibility: hidden}
+.teacher .teacherText ul{width: 999999px;overflow: hidden}
+.teacher .teacherText li{float: left;width: 570px;margin-right: 60px;visibility: hidden}
+.teacher .teacherText img{display: block;float: left}
+.teacher .teacherText span{float: left;width: 338px;margin-left: 20px;padding-top:28px}
+.teacher .teacherText h4{font-size: 36px;font-weight: 500;color: #fff;text-align: left;padding-bottom:20px}
+.teacher .teacherText i{font-style:normal;font-size: 24px;color: #fff;line-height: 30px}
+
+/*学生墙*/
+.student{background-image:url(../img/student.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed;padding-bottom: 48px}
+.student h1{font-size:52px;font-weight:500;margin: 55px 0 63px 0;color:#fff;overflow: hidden;visibility: hidden}
+.student ul{padding: 0 15px}
+.student li{float: left;width: 380px;position: relative;visibility: hidden;}
+.student li .student_text{position: absolute;left: 0;top: 0;height: 100%;background:rgba(33,33,33,0);padding: 0 20px;overflow: hidden;opacity: 0;transition:all 0.4s ease;-webkit-transition:all 0.4s ease}
+.student li .student_text:hover{background:rgba(33,33,33,0.8);opacity:1;transition:all 0.4s ease;-webkit-transition:all 0.4s ease}
+.student li .student_text a{color: #eb4f1e;font-size: 36px;margin-top: 70px;display: block;transform: translate3d(-100%,0,0);-webkit-transform:translate3d(-100%,0,0);-webkit-transition:all 0.4s linear;transition:all 0.4s linear}
+.student li .student_text:hover a{transform: translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-webkit-transition:all 0.4s linear;transition:all 0.4s linear}
+.student li .student_text span{display: block;font-size: 20px;color: #fff;padding:0 0 10px 0;transform: translate3d(150%,0,0);-webkit-transform:translate3d(150%,0,0);-webkit-transition:all 0.4s ease;transition:all 0.4s ease}
+.student li .student_text:hover span{transform: translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-webkit-transition:all 0.4s ease;transition:all 0.4s ease}
+.student li .student_text p{font-size: 20px;color: #fff;transition:all 0.5s ease;-webkit-transition:all 0.5s ease;transform:translate3d(0,600%,0);-webkit-transform:translate3d(0,600%,0)}
+.student li .student_text:hover p{transition:all 0.5s ease;-webkit-transition:all 0.5s ease;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0)}
+
+/*四大优势*/
+.goodness{padding-bottom: 125px}
+.goodness h1{font-size:52px;font-weight: 500;color:#000000;margin: 65px 0 75px 0;visibility: hidden;}
+.goodness ul li{float: left;padding: 0;cursor:pointer}
+.goodness ul li div{padding:88px 0 77px 0;visibility: hidden;color: #fff;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div:hover{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div.m2_left:hover dt{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div.m2_right:hover{color:#eb4f1e;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul .m1_left{background-color:#eb4f1e;}
+.goodness ul .m1_right{background-color:#939393}
+.goodness ul .m2_left{background-color:#fff;}
+.goodness ul .m2_right{background-color:#000000}
+.goodness ul li img{display: block;float: left;margin-left: 61px}
+.goodness ul li dl{float: left;margin-left: 28px;width: 344px}
+.goodness ul li dt{font-size: 40px;font-weight: 500;line-height: 38px;padding-bottom: 20px}
+.goodness ul li dd{font-size: 24px;}
+.goodness ul .m2_left dt{color:#eb4f1e;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul .m2_left dd{color:#000000}
+
+/*新闻信息*/
+.signUp{background:url(../img/signimg.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment:fixed;padding-bottom: 62px}
+.signUp h1{font-size: 52px;color: #fff;font-weight: 500;margin:65px 75px;visibility: hidden}
+.signUp dl{padding:0 102px;margin-bottom:52px}
+.signUp dt{background-color:#eb4f1e;padding: 25px 30px;visibility: hidden}
+.signUp dt h2{font-size: 54px;text-align: center;color: #fff}
+.signUp dt span{font-size: 18px;color: #fff;text-align: center;display: block;font-weight: 100}
+.signUp dd{background:rgba(0,0,0,0.5);padding:35px 48px;visibility: hidden}
+.signUp dd h5{text-align: left;font-size: 24px;color: #fff;padding-bottom:10px}
+.signUp dd p{font-size: 16px;color:#fff}
+.signUp .button{text-align: center;margin-top:20px}
+.signUp a{font-size: 18px;color: #fff;display: inline-block;border: 2px solid #fff;padding: 9px 84px;line-height: 40px;visibility: hidden;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;position:relative;font-weight: bold}
+.signUp a:after{content: '';width: 0;height:103%;top:50%;left:50%;position: absolute;background: #fff;opacity: 0;transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);transition:all 0.3s ease;-webkit-transition:all 0.3s ease;z-index: -1}
+.signUp a:hover:after{width: 90%;opacity: 1;transition:all 0.3s ease;-webkit-transition:all 0.3s ease}
+.signUp a:hover{color:#0a0503;transition:all 0.3s ease;-webkit-transition:all 0.3s ease}
+
+/*报名占座*/
+.cantus{background-image: url(../img/cantusbg.jpg);background-size: cover;background-position:center;background-attachment: fixed;background-repeat:no-repeat;padding-bottom: 117px}
+.cantus h1{font-size: 52px;color: #fff;font-weight: 500;padding: 65px 75px;visibility: hidden;}
+.cantus dl{position: relative;margin-bottom: 45px}
+.cantus dt input{font-size: 18px;color: #fff;padding:20px 16px 20px 110px;border: 1px solid #adadad;background:rgba(0,0,0,0.5);width: 100%;font-weight: normal;}
+.cantus dt input.name{padding-left:75px;}
+.cantus dd span{position: absolute;left:26px;top:21px;color: #fff;font-size: 18px}
+.cantus .button{text-align: center;margin-top: 17px}
+.cantus  a{display: inline-block;padding:18px 176px 12px 176px;background-color:#eb4f1e;color: #fff;font-size: 18px;border: none;visibility: hidden;}
+
+/*底部*/
+footer{padding:28px 0 20px 0;text-align: center;background-color:#111416}
+footer h6{color:#585856;font-size: 12px}
+footer h6 span{color:#1694e1}
+
+/*动画CSS*/
+.animated .fadeInUp1{-webkit-animation-name: fadeInUp;animation-name: fadeInUp;visibility:visible;}
+.animated .fadeInDown1{-webkit-animation-name: fadeInDown;animation-name: fadeInDown;visibility:visible;}
+.animated .fadeInUp2{-webkit-animation-name: fadeInUp;animation-name: fadeInUp;visibility:visible;animation-delay: 0.2s;-webkit-animation-delay: 0.2s}
+.animated .fadeInUp4{-webkit-animation-name: fadeInUp;animation-name: fadeInUp;visibility:visible;animation-delay: 0.4s;-webkit-animation-delay: 0.4s}
+.animated .fadeInUp6{-webkit-animation-name: fadeInUp;animation-name: fadeInUp;visibility:visible;animation-delay: 0.6s;-webkit-animation-delay: 0.6s}
+.animated .fadeInDown2{-webkit-animation-name: fadeInDown;animation-name: fadeInDown;visibility:visible;animation-delay: 0.2s;-webkit-animation-delay: 0.2s}
+.animated .fadeInDown4{-webkit-animation-name: fadeInDown;animation-name: fadeInDown;visibility:visible;animation-delay: 0.4s;-webkit-animation-delay: 0.4s}
+.animated .fadeInDown6{-webkit-animation-name: fadeInDown;animation-name: fadeInDown;visibility:visible;animation-delay: 0.6s;-webkit-animation-delay: 0.6s}
+.animated .fadeInLeft1{-webkit-animation-name: fadeInLeft;animation-name: fadeInLeft;visibility:visible;}
+.animated .fadeInRight1{-webkit-animation-name: fadeInRight;animation-name: fadeInRight;visibility:visible;}
+
+.animated .zoomIn1{-webkit-animation-name: zoomIn;animation-name: zoomIn;visibility:visible;}
+.animated .zoomInUp1{-webkit-animation-name: zoomInUp;animation-name: zoomInUp;visibility:visible;}
+.animated .zoomInDown1{-webkit-animation-name: zoomInDown;animation-name: zoomInDown;visibility:visible;}
+.animated .zoomInLeft1{-webkit-animation-name: zoomInLeft;animation-name: zoomInLeft;visibility:visible;}
+.animated .zoomInRight1{-webkit-animation-name: zoomInRight;animation-name: zoomInRight;visibility:visible;}
