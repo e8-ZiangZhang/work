@@ -22,9 +22,9 @@ header span.login{margin-right:25px;margin-left: 15px}
 .text p{color: #000000;font-size: 24px;text-align: center;padding:0 90px;line-height: 40px;visibility: hidden;min-height: 1px;overflow: hidden}
 
 /*我们的成就*/
-.achievement{background-image: url(../img/achievement.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;background-attachment:fixed;padding-bottom: 81px}
+.achievement{background-image: url(../img/achievement.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;background-attachment:fixed;padding-bottom:61px}
 .achievement h1{font-size:52px;color: #fff;font-weight:500;margin: 65px 0 75px 0;visibility: hidden;min-height: 1px;overflow: hidden}
-.achievement .filter{visibility: hidden;}
+.achievement .filter{visibility: hidden;margin-bottom: 20px}
 .title,.number,.endtext{text-align: center;display: block;color: #fff;}
 .title,.endtext{font-size: 30px;}
 .title{padding-top: 46px}
