@@ -73,18 +73,23 @@ header span.login{margin-right:25px;margin-left: 15px}
 .goodness ul li{float: left;padding: 0;cursor:pointer}
 .goodness ul li div{padding:88px 0 77px 0;visibility: hidden;color: #fff;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul li div:hover{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div:hover i{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div.m2_left:hover i{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul li div.m2_left:hover dt{color:#000;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
+.goodness ul li div.m2_right:hover i{color:#eb4f1e;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul li div.m2_right:hover{color:#eb4f1e;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul .m1_left{background-color:#eb4f1e;}
 .goodness ul .m1_right{background-color:#939393}
 .goodness ul .m2_left{background-color:#fff;}
 .goodness ul .m2_right{background-color:#000000}
-.goodness ul li img{display: block;float: left;margin-left: 61px}
+.goodness ul li i{float: left;margin-left: 61px;font-size: 117px;line-height: 120px;color: #fff;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul li dl{float: left;margin-left: 28px;width: 344px}
 .goodness ul li dt{font-size: 40px;font-weight: 500;line-height: 38px;padding-bottom: 20px}
 .goodness ul li dd{font-size: 24px;}
+.goodness ul .m2_left i{color: #eb4f1e;}
 .goodness ul .m2_left dt{color:#eb4f1e;transition: all 0.5s ease;-webkit-transition:all 0.5s ease}
 .goodness ul .m2_left dd{color:#000000}
+.goodness ul .m2_right i{margin-left: 45px;font-size: 100px}
 
 /*新闻信息*/
 .signUp{background:url(../img/signimg.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment:fixed;padding-bottom: 62px}
@@ -111,6 +116,7 @@ header span.login{margin-right:25px;margin-left: 15px}
 .cantus dd span{position: absolute;left:26px;top:21px;color: #fff;font-size: 18px}
 .cantus .button{text-align: center;margin-top: 17px}
 .cantus  a{display: inline-block;padding:18px 176px 12px 176px;background-color:#eb4f1e;color: #fff;font-size: 18px;border: none;visibility: hidden;}
+.cantus  a:hover{color: #fff}
 
 /*底部*/
 footer{padding:28px 0 20px 0;text-align: center;background-color:#111416}
